@@ -4,7 +4,7 @@
 #' @param right_hand_side A numeric dataframe containing all the I(1) regressors.
 #' @param left_hand_side A numeric dataframe containing the dependent variable.
 #' @param I_0_dols A numeric dataframe containing all the I(1) regressors. Only valid if mehtod = "D" (the long run cointegrated vector is obtained by DOLS).
-#' @param cross_sections A numeric dataframe containing the index for the cross sections. It should contain consecutive numbers starting from 1.
+#' @param cross_sections A numeric dataframe containing the index for the cross sections. It should contain consecutive integers starting from 1.
 #' @param time A numeric dataframe containing the index for time.
 #' @param dummies A numeric dataframe containing dummies to include in the short-run equations.
 #' @param method It can be "D" if the long run cointegrated vector is obtained by DOLS or it can be "FM" if obtained by FMOLS. Default is "D". See documentation for cointReg package.

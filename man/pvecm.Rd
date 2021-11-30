@@ -33,7 +33,7 @@ pvecm(
 
 \item{I_0_dols}{A numeric dataframe containing all the I(1) regressors. Only valid if mehtod = "D" (the long run cointegrated vector is obtained by DOLS).}
 
-\item{cross_sections}{A numeric dataframe containing the index for the cross sections. It should contain consecutive numbers starting from 1.}
+\item{cross_sections}{A numeric dataframe containing the index for the cross sections. It should contain consecutive integers starting from 1.}
 
 \item{time}{A numeric dataframe containing the index for time.}
 
