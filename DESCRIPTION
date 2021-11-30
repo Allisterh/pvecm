@@ -1,0 +1,21 @@
+Package: pvecm
+Type: Package
+Title: Group Mean Panel VECM
+Version: 0.1.0
+Author: Reynaldo Senra Hodelin
+Maintainer: The package maintainer <reynaldosenra@gmx.com>
+Description: This package applies the group mean panel VECM estimation and causality tests as in Canning and Pedroni (2008) and Pedroni (2019).
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    base,
+    cointReg,
+    data.table,
+    dplyr,
+    dynlm,
+    plm,
+    stats
+Depends:
+    zoo
+RoxygenNote: 7.1.2
